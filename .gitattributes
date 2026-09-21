@@ -1,0 +1,11 @@
+# Default behavior
+# Project-specific overrides
+Cargo.lock linguist-generated
+public/index.html linguist-vendored
+public/* linguist-vendored
+
+src/**/*.rs linguist-detectable
+
+*.jpg binary
+* text=auto eol=lf
+# eof 6cc58ef2
